@@ -1,0 +1,29 @@
+GET  HTTP://localhost:3300/api/employees
+
+###
+
+GET  HTTP://localhost:3300/api/employees/2
+
+###
+
+POST HTTP://localhost:3300/api/employees
+Content-Type: application/json
+
+{
+    "name":"Gautam Kandapal",
+    "email":"gk@outlook.com"
+}
+
+
+
+###
+DELETE  HTTP://localhost:3300/api/employees/2
+
+###
+PATCH  HTTP://localhost:3300/api/employees/3
+Content-Type: application/json
+
+{
+    "name":"Prateek Sati",
+    "email":"ps@tinder.com"
+}
